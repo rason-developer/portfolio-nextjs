@@ -1,10 +1,13 @@
-import Image from "next/image";
+import Hero from "./components/main/Hero";
+import Skills from "./components/main/Skills";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        Portfolio
+    <main className="h-full w-full">
+      <div className="flex flex-col  gap-20">
+        <Hero></Hero>
+        <Skills></Skills>
       </div>
     </main>
   );
