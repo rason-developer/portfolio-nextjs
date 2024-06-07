@@ -84,19 +84,22 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/instagram.svg",
+      link:"https://www.instagram.com/bruno_sousa.x/"
     },
     {
       name: "Linkedin",
       src: "/linkedin.svg",
+      link:"https://www.linkedin.com/in/dev-bruno-sousa/"
     },
     {
       name: "Github",
       src: "/github.svg",
+      link:"https://github.com/rason-developer"
     },
   ];
-  
-  
-  
+
+
+
   export const Frontend_skill = [
     {
       skill_name: "Html 5",
